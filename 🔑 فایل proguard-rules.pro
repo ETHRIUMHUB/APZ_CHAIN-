@@ -1,0 +1,7 @@
+-keep class com.apzchain.** { *; }
+-keep class org.web3j.** { *; }
+-keep class com.facebook.react.** { *; }
+-keep class com.facebook.hermes.** { *; }
+-dontwarn org.web3j.**
+-dontwarn okhttp3.**
+-dontwarn com.facebook.react.**
