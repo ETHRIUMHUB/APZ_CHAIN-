@@ -1,0 +1,4 @@
+mkdir apz-android && cd apz-android
+npx @react-native-community/cli init APZChain --version 0.76.0
+cd APZChain
+npm install ethers @walletconnect/react-native-compat @react-native-async-storage/async-storage react-native-get-random-values @react-native-community/netinfo react-native-webview @react-native-clipboard/clipboard
